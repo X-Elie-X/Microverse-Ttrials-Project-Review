@@ -1,0 +1,20 @@
+#img-caption {
+  width: auto;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+body {
+  margin-left: 7vw;
+}
+
+@media only screen and (max-width: 800px) {
+  #image {
+    width: 85vw;
+  }
+}
